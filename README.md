@@ -64,7 +64,7 @@ pip install -r requirements.txt
 ## 2. Data Setup (Kaggle Integration)
 
 This repository strictly separates **code** from **data**.
-1. Download the competition data from the **OpenAImer 2026 Kaggle Competition Page**.
+1. Download the competition data from the [**OpenAImer 2026 Kaggle Competition Page**](https://www.kaggle.com/competitions/openaimer26-1/overview).
 2. Place `train.csv` and `test.csv` directly into the `data/raw/` directory.
 
 ```text
