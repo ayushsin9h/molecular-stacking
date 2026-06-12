@@ -1,0 +1,50 @@
+# ==========================================
+# 1. DATA & SERIALIZED MODELS (CRITICAL)
+# ==========================================
+# Ignore all raw Kaggle datasets and generated submissions
+*.csv
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore locally processed features, scalers, and optimized thresholds
+*.pkl
+*.joblib
+data/processed/*
+!data/processed/.gitkeep
+
+# Ignore PyTorch model weights (if saved later)
+*.pt
+*.pth
+
+# ==========================================
+# 2. PYTHON CORE & ENVIRONMENTS
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment Variables (Secrets)
+.env
+
+# ==========================================
+# 3. JUPYTER NOTEBOOKS & IDE
+# ==========================================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# ==========================================
+# 4. OS GENERATED FILES
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
